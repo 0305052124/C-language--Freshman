@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "比特实验2", "比特实验2\比特实验2.vcxproj", "{805A84DE-F048-4F01-A08D-9C2756F14514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Debug|x64.ActiveCfg = Debug|x64
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Debug|x64.Build.0 = Debug|x64
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Debug|x86.ActiveCfg = Debug|Win32
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Debug|x86.Build.0 = Debug|Win32
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Release|x64.ActiveCfg = Release|x64
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Release|x64.Build.0 = Release|x64
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Release|x86.ActiveCfg = Release|Win32
+		{805A84DE-F048-4F01-A08D-9C2756F14514}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9875B706-1A3D-4EB9-9CB4-2F561FE05EB4}
+	EndGlobalSection
+EndGlobal
