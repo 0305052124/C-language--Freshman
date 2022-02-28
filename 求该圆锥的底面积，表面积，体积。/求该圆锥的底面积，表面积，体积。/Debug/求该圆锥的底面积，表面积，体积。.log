@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\jinchunyi\source\repos\求该圆锥的底面积，表面积，体积。\求该圆锥的底面积，表面积，体积。\源.cpp(21,15): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\jinchunyi\source\repos\求该圆锥的底面积，表面积，体积。\求该圆锥的底面积，表面积，体积。\源.cpp(22,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  求该圆锥的底面积，表面积，体积。.vcxproj -> C:\Users\jinchunyi\source\repos\求该圆锥的底面积，表面积，体积。\Debug\求该圆锥的底面积，表面积，体积。.exe

@@ -1,0 +1,6 @@
+﻿  源.cpp
+  源1.cpp
+C:\Users\jinchunyi\source\repos\将三个数按从大到小输出\将三个数按从大到小输出\源1.cpp(11,18): warning C4474: scanf: 格式字符串中传递的参数太多
+C:\Users\jinchunyi\source\repos\将三个数按从大到小输出\将三个数按从大到小输出\源1.cpp(11,18): message : 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+  正在生成代码...
+C:\Users\jinchunyi\source\repos\将三个数按从大到小输出\将三个数按从大到小输出\源1.cpp(8): error C4700: 使用了未初始化的局部变量“a”

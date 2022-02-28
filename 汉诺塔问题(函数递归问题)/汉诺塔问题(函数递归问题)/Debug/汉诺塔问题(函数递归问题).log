@@ -1,0 +1,5 @@
+﻿  源.cpp
+C:\Users\jinchunyi\source\repos\汉诺塔问题(函数递归问题)\汉诺塔问题(函数递归问题)\源.cpp(29,10): warning C4101: “B”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\汉诺塔问题(函数递归问题)\汉诺塔问题(函数递归问题)\源.cpp(29,7): warning C4101: “A”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\汉诺塔问题(函数递归问题)\汉诺塔问题(函数递归问题)\源.cpp(29,13): warning C4101: “C”: 未引用的局部变量
+  汉诺塔问题(函数递归问题).vcxproj -> C:\Users\jinchunyi\source\repos\汉诺塔问题(函数递归问题)\Debug\汉诺塔问题(函数递归问题).exe

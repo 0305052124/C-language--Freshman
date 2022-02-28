@@ -1,0 +1,8 @@
+﻿  源.cpp
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(6,2): error C2065: “i”: 未声明的标识符
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(9,3): error C2059: 语法错误:“return”
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(11,2): error C2059: 语法错误:“return”
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(12,1): error C2059: 语法错误:“}”
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(12,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(14,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\jinchunyi\source\repos\判断year是不是润年。\判断year是不是润年。\源.cpp(14,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
