@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表的基本操作", "单链表的基本操作\单链表的基本操作.vcxproj", "{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Debug|x64.ActiveCfg = Debug|x64
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Debug|x64.Build.0 = Debug|x64
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Debug|x86.Build.0 = Debug|Win32
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Release|x64.ActiveCfg = Release|x64
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Release|x64.Build.0 = Release|x64
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Release|x86.ActiveCfg = Release|Win32
+		{D3C10C5D-5CE9-44DF-B74D-00D282D91A74}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD4080C-E06F-464B-BCB3-F1AE7DBDD601}
+	EndGlobalSection
+EndGlobal

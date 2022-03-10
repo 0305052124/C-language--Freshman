@@ -1,0 +1,2 @@
+﻿  源.cpp
+C:\Users\jinchunyi\source\repos\单链表的基本操作\单链表的基本操作\源.cpp(114): error C4700: 使用了未初始化的局部变量“x”
