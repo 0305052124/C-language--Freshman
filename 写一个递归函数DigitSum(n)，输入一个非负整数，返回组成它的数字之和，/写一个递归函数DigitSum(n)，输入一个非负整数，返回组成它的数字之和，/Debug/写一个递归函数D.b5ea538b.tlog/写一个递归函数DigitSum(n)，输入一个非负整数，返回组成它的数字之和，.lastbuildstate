@@ -1,0 +1,2 @@
+PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.29.30133:VCServicingVersionCrtHeaders=14.29.30136:TargetPlatformVersion=10.0.19041.0:
+Debug|Win32|C:\Users\jinchunyi\source\repos\写一个递归函数DigitSum(n)，输入一个非负整数，返回组成它的数字之和，\|
