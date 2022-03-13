@@ -1,0 +1,6 @@
+﻿  game.cpp
+C:\Users\jinchunyi\source\repos\三子棋\三子棋\game.cpp(103,27): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+  main.c.cpp
+  正在生成代码...
+Debug\game.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  三子棋.vcxproj -> C:\Users\jinchunyi\source\repos\三子棋\Debug\三子棋.exe
