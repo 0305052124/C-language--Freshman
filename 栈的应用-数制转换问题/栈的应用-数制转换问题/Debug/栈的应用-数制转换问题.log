@@ -1,0 +1,10 @@
+﻿  源.cpp
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(20,1): warning C4326: “main”的返回类型应为“int”而非“void”
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(22,12): warning C4101: “B”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(21,20): warning C4101: “sum”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(22,24): warning C4101: “F”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(22,21): warning C4101: “E”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(22,18): warning C4101: “D”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(22,9): warning C4101: “A”: 未引用的局部变量
+C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\栈的应用-数制转换问题\源.cpp(22,15): warning C4101: “C”: 未引用的局部变量
+  栈的应用-数制转换问题.vcxproj -> C:\Users\jinchunyi\source\repos\栈的应用-数制转换问题\Debug\栈的应用-数制转换问题.exe

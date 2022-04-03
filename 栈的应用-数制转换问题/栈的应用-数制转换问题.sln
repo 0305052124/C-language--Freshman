@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的应用-数制转换问题", "栈的应用-数制转换问题\栈的应用-数制转换问题.vcxproj", "{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Debug|x64.ActiveCfg = Debug|x64
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Debug|x64.Build.0 = Debug|x64
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Debug|x86.ActiveCfg = Debug|Win32
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Debug|x86.Build.0 = Debug|Win32
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Release|x64.ActiveCfg = Release|x64
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Release|x64.Build.0 = Release|x64
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Release|x86.ActiveCfg = Release|Win32
+		{0BCAF764-FD55-44FE-AE3F-5E25D81C9D54}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A1FB048-26B7-45E6-A1E3-7752C035F000}
+	EndGlobalSection
+EndGlobal
