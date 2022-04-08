@@ -91,5 +91,4 @@ int main(void)
 	gets_s(a);
 	int n = strlen(a);
 	ExpIsCorrect(a, n);
-	
 }
