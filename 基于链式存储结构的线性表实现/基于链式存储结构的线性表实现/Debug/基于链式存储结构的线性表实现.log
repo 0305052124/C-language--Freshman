@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\jinchunyi\source\repos\基于链式存储结构的线性表实现\基于链式存储结构的线性表实现\源.cpp(360,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LNode *”
+C:\Users\jinchunyi\source\repos\基于链式存储结构的线性表实现\基于链式存储结构的线性表实现\源.cpp(373,12): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“LNode *”
+C:\Users\jinchunyi\source\repos\基于链式存储结构的线性表实现\基于链式存储结构的线性表实现\源.cpp(341,9): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
