@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strlen()：求字符串长度，不包含斜杠0", "strlen()：求字符串长度，不包含斜杠0\strlen()：求字符串长度，不包含斜杠0.vcxproj", "{ECD3B865-BD26-4C98-8728-E1D9C117D73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Debug|x64.ActiveCfg = Debug|x64
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Debug|x64.Build.0 = Debug|x64
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Debug|x86.Build.0 = Debug|Win32
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Release|x64.ActiveCfg = Release|x64
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Release|x64.Build.0 = Release|x64
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Release|x86.ActiveCfg = Release|Win32
+		{ECD3B865-BD26-4C98-8728-E1D9C117D73D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42EC3C85-591B-43EC-ADD0-0F63B9A9DF98}
+	EndGlobalSection
+EndGlobal
