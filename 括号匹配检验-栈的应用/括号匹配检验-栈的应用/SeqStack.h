@@ -1,10 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
 #include<string.h>
-#include<stdlib.h>
-#include <iostream>
-#include <cstring>//必须是cstring，否则strlen()方法不能用
-#include<math.h>
+#include<stdio.h>
 #define TRUE 1
 #define FALSE 0
 #define MaxSize 100
