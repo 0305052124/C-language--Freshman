@@ -1,0 +1,2 @@
+﻿  text.c
+C:\Users\jinchunyi\source\repos\二叉树处理\二叉树处理\text.c(77): error C4703: 使用了可能未初始化的本地指针变量“T”
