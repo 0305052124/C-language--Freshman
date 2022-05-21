@@ -1,0 +1,41 @@
+
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+void reverse(char* left,char* right)
+{
+    assert(left);
+    assert(right);
+    while (left <= right)
+    {
+        int tmp = *left;
+        *left = *right;
+        *right = tmp;
+        left++;
+        right--;
+    }
+}
+int main()
+{
+    char arr[101];
+    char* left, *right;
+    gets_s(arr);
+    int len = strlen(arr);
+    先全部倒置
+    reverse(arr,arr+len-1);
+    left = arr;
+    while (*left)
+    {
+        right = left;
+        while (*right!=' '&&*right!='\0')
+        {
+            right++;
+        }
+        reverse(left, right-1);
+        if (*right != '\0')
+            right += 1;
+        left = right;
+    }
+    printf("%s", arr);
+    return 0;
+}
