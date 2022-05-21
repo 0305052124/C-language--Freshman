@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	char arr[101];
+	gets_s(arr);
+	char b[100];
+	char* left, * right;
+	left = arr;
+	right = arr;
+	while (left)
+	{
+		int start = 0;
+		int len = 0;
+		if (*right != ' ' || *right != '\0')
+		{
+			len++;
+			right++;
+		} 
+		for (int i = start; i < start+len,left<=right; i++)
+		{
+			b[i] = *left;
+			left++;
+		}
+		if (*right != '\0')
+			right++;
+		left = right;
+		start = len + 1;
+	}
+	printf("%s", b);
+	return 0;
+}
