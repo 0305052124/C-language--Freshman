@@ -1,0 +1,35 @@
+
+void MoveNum(int arr[], int sz)
+{
+	int* left = arr;
+	int* right = arr + sz - 1;
+	int tmp = 0;
+	while (left < right)
+	{
+		if ((left < right) && ((*left) % 2 != 0))//得到了奇数的位置
+		{
+			left++;
+		}
+		if ((left < right) && ((*right) % 2 == 0))//得到了偶数的位置
+		{
+			right--;
+		}
+		if (left < right)//交换奇数与偶数位置元素
+		{
+			tmp = *left;
+			*left = *right;
+			*right = tmp;
+		}
+	}
+}
+int main()
+{
+	int arr[] = { 1,2,3,4,5,6,7,8,9 };
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	MoveNum(arr, sz);
+	for (int i = 0; i < sz; ++i)
+	{
+		printf("%d ", arr[i]);
+	} 
+	return 0;
+}
