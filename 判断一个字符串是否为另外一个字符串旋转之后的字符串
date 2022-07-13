@@ -1,0 +1,38 @@
+
+//写一个函数，判断一个字符串是否为另外一个字符串旋转之后的字符串。
+//例如：给定s1 = AABCD和s2 = BCDAA，返回1
+//给定s1 = abcd和s2 = ACBD，返回0.
+//AABCD左旋一个字符得到ABCDA
+//AABCD左旋两个字符得到BCDAA-CDAAB-DAABC-AABCD
+//AABCD右旋一个字符得到DAABC//左转4个字符
+
+//int Swap(char a[],char b[])
+//{
+//	int len =strlen(a);
+//	for (int i = 0; i < len; i++)
+//	{
+//		char temp = *a;
+//		for (int i = 0; i <len-1; i++)
+//		{
+//			a[i] = a[i+1];
+//		}
+//		a[len - 1] = temp;
+//		if (strcmp(a, b) == 0)
+//			return 1;
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	char a[] = "AABCD";
+//	char b[] = "CDAAB";
+//	int len1 = strlen(a);
+//	int len2 = strlen(b);
+//	if (len1 != len2)
+//	{
+//		printf("0\n");
+//	}
+//	int ret = Swap(a,b);
+//	printf("%d", ret);
+//	return 0;
+//}
