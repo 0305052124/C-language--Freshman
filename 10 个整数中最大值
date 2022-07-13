@@ -1,0 +1,21 @@
+求10 个整数中最大值
+//int main()
+//{
+//	int i = 0;
+//	int a[10] = { 0 };
+//	for (i = 0; i < 10; i++) scanf("%d", &a[i]);
+//	int max;
+//	for (int j = 0; j < 10; j++)
+//	{
+//		max = a[j];
+//		for (int i = j + 1; i < 10; i++)
+//		{
+//			if (max < a[i])
+//			{	
+//				max = a[i];
+//			}
+//		}
+//	}
+//	printf("%d ", max);
+//	return 0;
+//}
