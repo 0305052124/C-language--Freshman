@@ -1,0 +1,12 @@
+int* printNumbers(int n, int* returnSize ) 
+{
+    int k=1;
+    static int a[99999];
+    for(int j=0;j<n;j++) 
+        k*=10;  
+    int i;
+    for( i=1;i<k;i++) 
+         a[i-1]=i; 
+   *returnSize=--i;
+    return a;
+}
