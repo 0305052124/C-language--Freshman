@@ -1,0 +1,44 @@
+/有一个数字矩阵，矩阵的每行从左到右是递增的，矩阵从上到下是递增的，
+//请编写程序在这样的矩阵中查找某个数字是否存在。
+//要求：时间复杂度小于O(N);
+#include<stdio.h>
+int x = 0;
+int y = 0;
+int search(int a[3][3], int n,int row,int col)
+{
+	x = row-1;
+	y = 0;
+	while (x>=0&&y<=2)
+	{
+		if (n > a[x][y])
+		{
+			y++;
+		}
+		else if(n<a[x][y])
+		{
+			x--;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	return 1;
+}
+int main()
+{
+	int a[3][3] = { { 1, 3, 6 },{ 2, 5, 7 },{4, 6, 8} };
+	int num = 0;
+	scanf_s("%d", &num);
+	int ret=search(a, num,3,3);
+	if (ret == 0)
+	{
+		printf("存在，坐标是 %d %d\n",x+1,y+1);
+	}
+	else
+	{
+		printf("不存在\n");
+	}
+	return 0;
+}
+
