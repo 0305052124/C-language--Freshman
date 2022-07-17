@@ -1,0 +1,21 @@
+
+//字符串逆序（递归实现）
+//void reverse_string(char* arr)
+//{
+//	char temp = *arr;//首元素存放好 
+//	int len = strlen(arr);
+//	*arr = *(arr + len - 1);//最后一个元素到首位 
+//	*(arr + len - 1) = '\0';//最后一个元素等于\0,给定下次遍历的右范围 
+//	if (strlen(arr + 1) >= 2)
+//	{
+//		reverse_string(arr + 1);//给定下次遍历的左范围 
+//	}
+//	*(arr + len - 1) = temp;//把当前的最后元素,也就是\0,替换成首元素 
+//}
+//int main()
+//{
+//	char arr[] = "abcdef";
+//	reverse_string(arr);
+//	printf("%s\n", arr);
+//	return 0;
+//}
