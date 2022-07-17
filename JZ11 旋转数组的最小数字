@@ -1,0 +1,10 @@
+int minNumberInRotateArray(int* rotateArray, int rotateArrayLen )
+{ 
+       for(int i=1;i<rotateArrayLen ;i++)
+       {
+            if(rotateArray[i-1]>rotateArray[i])
+                return rotateArray[i];
+       }
+    return rotateArray[0];
+}
+ 
