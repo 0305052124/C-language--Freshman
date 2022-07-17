@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int n,count=0,ret=0;
+    scanf("%d",&n);
+    int a[n];
+    float sum=0.0;
+    for(int i=0;i<n;i++)  scanf("%d",&a[i]); 
+    for(int i=0;i<n;i++)
+    {
+        sum+=a[i];
+        if(a[i]==0) ret++;
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]<0)
+        {
+            count++;
+            sum-=a[i];
+        }
+    } 
+    printf("%d ",count);
+    if((n-count-ret)==0)  printf("0.0");
+    else  printf("%.1f",count,sum/(n-count-ret));
+    return 0;
+}
