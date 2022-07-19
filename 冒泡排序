@@ -1,0 +1,18 @@
+//#include<stdio.h>
+//#include<string.h>  
+////冒泡排序
+//void bubble_sort(int a[])//升序
+//{
+//	for (int i = 0; i < 9; i++)
+//	{
+//		for (int j = 0; j < 9-i; j++)
+//		{
+//			if (a[j]> a[j+1])
+//			{
+//				int temp = a[j];
+//				a[j] = a[j+1];
+//				a[j+1] = temp;
+//			}
+//		}
+//	}
+//}
