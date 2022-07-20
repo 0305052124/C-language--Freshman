@@ -1,0 +1,21 @@
+// 写一个函数打印arr数组的内容，不使用数组下标，使用指针。
+//arr是一个整形一维数组。
+//#include<stdio.h> 
+//void print(int* a,int sz)
+//{
+//	int i = 0;
+//	while (sz) 
+//	{
+//		printf("%d ", *a + i);
+//		i++; 
+//		sz--;
+//	}
+//}
+//
+//int main()
+//{
+//	int a[5] = {1,2,3,4,5};
+//	int sz = sizeof(a) / sizeof(a[0]);
+//	print(a,sz);
+//	return 0; 
+//}
