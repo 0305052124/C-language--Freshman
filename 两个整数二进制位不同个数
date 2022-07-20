@@ -1,0 +1,19 @@
+// 两个整数二进制位不同个数 
+//#include<stdio.h> 
+//int main()
+//{
+//	int n,m;
+//	int count = 0;
+//	scanf("%d%d", &n, &m);
+//	  for (int i = 0; i < 32; i++)
+//	{
+//		if ((n % 2) != (m % 2))
+//		{
+//			count++;
+//		}
+//		n /= 2;
+//		m /= 2;
+//	}
+//	printf("%d\n", count);
+//	return 0;
+//}
