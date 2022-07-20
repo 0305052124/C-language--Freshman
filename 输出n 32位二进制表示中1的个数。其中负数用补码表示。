@@ -1,0 +1,23 @@
+输入一个整数 n ，输出该数32位二进制表示中1的个数。其中负数用补码表示。
+//#include<stdio.h> 
+//int main()
+//{
+//	int  m;
+//	int count = 0;
+//	scanf("%d",&m);
+//	int a[32]; 
+//		for (int i = 0; i < 32; i++)
+//		{ 
+//			/*a[i] = m % 2; 
+//			m /= 2;
+//			if (a[i] == 1)
+//				count++;*/
+//
+//			if (((m >> i) & 1) == 1)
+//			{
+//				count++;
+//			}
+//		}  
+//	printf("%d\n", count);
+//	return 0;
+//}
