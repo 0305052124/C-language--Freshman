@@ -1,0 +1,32 @@
+// /* memmove example */
+//#include <stdio.h>
+//#include <string.h>
+//#include <assert.h>
+//void* My_memmove(void* dest , const void* src, size_t num)
+//{
+//	assert(dest && src);
+//	if (dest < src)
+//	{
+//		while (num--)//前->后
+//		{
+//			*(char*)dest = *(char*)src;
+//			dest = (char*)dest + 1;
+//			src = (char*)src + 1;
+//		}
+//	}
+//	else
+//	{
+//		while (num--)//后->前
+//		{
+//			*((char*)dest+num) = *((char*)src + num);
+//		}
+//	}
+//	return;
+//}
+//int main()
+//{
+//	char str[] = "memmove can be very useful......";
+//	My_memmove(str + 20, str + 15, 11);
+//	puts(str);
+//	return 0;
+//}
