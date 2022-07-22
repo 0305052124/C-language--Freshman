@@ -1,0 +1,31 @@
+/* memcpy example */
+//#include <stdio.h>
+//#include <string.h>
+//#include <assert.h>
+//struct {
+//	char name[40];
+//	int age;
+//} person, person_copy;
+//void* My_memcpy(void* dest,const void* src, size_t num)
+//{
+//	assert(dest && src);
+//	void* ret = dest;
+//	while (num--)
+//	{
+//		*(char*)dest = *(char*)src;
+//		dest = (char*)dest + 1;
+//		src = (char*)src + 1;
+//	}
+//	return ret;
+//}
+//int main()
+//{
+//	char myname[] = "Pierre de Fermat";
+//	/* using memcpy to copy string: */
+//	My_memcpy(person.name, myname, strlen(myname) + 1);
+//	person.age = 46;
+//	/* using memcpy to copy structure: */
+//	My_memcpy(&person_copy, &person, sizeof(person));
+//	printf("person_copy: %s, %d \n", person_copy.name, person_copy.age);
+//	return 0;
+//} 
