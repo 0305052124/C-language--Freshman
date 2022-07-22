@@ -1,0 +1,16 @@
+// strerror
+// #include <stdio.h>
+//#include <string.h>
+//#include <errno.h>
+//int main()
+//{
+//    printf("%s\n", strerror(0));
+//    printf("%s\n", strerror(1));
+//    printf("%s\n", strerror(2));
+//    printf("%s\n", strerror(3));
+//    FILE* pFile;
+//    pFile = fopen("unexist.ent", "r");
+//    if (pFile == NULL)
+//        printf("Error opening file unexist.ent: %s\n", strerror(errno));
+//    return 0;
+//}
