@@ -1,0 +1,60 @@
+#define MAXLEN 255   //预定义最大串长为255 
+typedef struct 
+{
+    char ch[MAXLEN];   //静态数组实现（定长顺序存储）//每个分量存储一个字符 //每个char字符占1B      
+    int length;        //串的实际长度
+}SString; 
+int Brute_Force(SString S, SString T)
+{
+    int i = 1;                //扫描主串S
+    int j = 1;                //扫描模式串T
+    while (i <= S.length && j <= T.length) 
+    {
+        if (S.ch[i] == T.ch[j]) 
+        {
+            ++i;
+            ++j;             //继续比较后继字符
+        }
+        else 
+        {
+            i = i - j + 2;
+            j = 1;             //指针后退重新开始匹配
+        }
+    }
+    if (j > T.length)
+        return i - T.length;
+    else
+        return 0;
+}
+ //KMP 
+int next[255];
+void get_next(SString T)
+{
+    int i = 1, j = 0;
+    next[1] = 0;
+    while (i < T.length)
+    {
+        if (j == 0 || T.ch[i] == T.ch[j])
+        {
+            i++;
+            j++;
+            next[i] = j;
+        }
+        else  j = next[j]; 
+    }
+}
+int  KMP(SString S, SString T, int next[]) 
+{
+    int i = 1,j = 1;     //主串 模式串  
+    get_next(T);
+    while (i <= S.length && j <= T.length)
+    {
+        if (j == 0 || S.ch[i] == T.ch[j])//元素匹配成功时
+        {      
+            ++j; //继续比较后继字符
+            ++i;        
+        }
+        else     j = next[j];   //模式串向右移动
+    }
+    if (j > T.length)    return i - T.length; //匹配成功
+}
